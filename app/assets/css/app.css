@@ -8,7 +8,7 @@ body {
 }
 
 #container{
-	min-width: 1000px;
+	
 	height: 100%;
 }
 
@@ -275,6 +275,7 @@ p{
 /* Header */
 #header{
 	width: 100%;
+	min-width: 960px;
 	height: 53px;
 	background: url('../images/layout/header-bg.jpg');
 	position: relative;
@@ -813,4 +814,73 @@ p{
 }
 .table th{
 	font-weight: bold;
+}
+
+
+#new-comment form a {
+	margin: 0 !important;
+	float: right;
+}
+@media (max-width: 1090px) {
+	#header ul.nav {
+		left: 124px;
+	}
+}
+@media (max-width: 800px) {
+	#content .pad {
+		padding: 0;
+	}
+	.issue-discussion > li {
+		border-width: 2px 0 2px 0;
+		border-radius: 0;
+	}
+	.issue-discussion li .insides {
+		padding: 0;
+	}
+	.issue-discussion li .topbar {
+		border-radius: 0;
+	}
+	/*#new-comment h4, #new-comment #uploadUploader, #new-comment input.primary {
+		margin-left: 10px;
+	}*/
+	#new-comment textarea {
+		border-radius: 0;
+	}
+	/*#new-comment .issue-actions {
+		margin-right: 10px;
+	}*/
+	#content .blue-box {
+		border-radius: 0;
+		border-width: 1px 0;
+	}
+	/*#content .blue-box .inside-pad {
+		padding: 5px 0;
+	}
+	#content .blue-box .activity {
+		border-radius: 0;
+		border-width: 1px 0;
+	}*/
+	#new-comment form > p,
+	#new-comment > h4, 
+	#new-comment > ul {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#new-comment form > p textarea{
+		width: 100% !important;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#users-list {
+		margin: 0 10px;
+	}
+	#users-list h4 span{
+		display: block;
+		margin: 0;
+	}
+	#content .pad .inside-tabs{
+		padding: 5px 0;
+	}
 }
