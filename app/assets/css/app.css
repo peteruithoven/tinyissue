@@ -49,14 +49,14 @@ h3 .newissue{
 	display: block;
 	float: right;
 	background: url('../images/layout/newissue.png') no-repeat;
-	text-indent: -999999px;
+	text-indent: -9999px;
 }
 h3 .addnewuser{
 	width: 121px; height: 26px;
 	display: block;
 	float: right;
 	background: url('../images/layout/addnewuser.png') no-repeat;
-	text-indent: -999999px;
+	text-indent: -9999px;
 }
 h3 .edit-issue {
     padding-right: 35px;
@@ -291,7 +291,7 @@ p{
 #header .logo{
 	width: 87px; height: 23px;
 	background: url('../images/layout/tinyissue.png') no-repeat;
-	text-indent: -99999999px !important;
+	text-indent: -9999px !important;
 	position: absolute; top: 15px; left: 15px;
 }
 #header .nav-right{
@@ -393,14 +393,14 @@ p{
 	width: 26px; height: 26px;
 	display: block;
 	float: right;
-	text-indent: -999999px;
+	text-indent: -9999px;
 }
 #sidebar h2 .edit{
 	background: url('../images/layout/icon-bigedit.png') no-repeat;
 	width: 26px; height: 26px;
 	display: block;
 	float: right;
-	text-indent: -999999px;
+	text-indent: -9999px;
 }
 #sidebar h2 span{
 	color: #989898;
@@ -420,7 +420,7 @@ p{
 	width: 12px; height: 15px;
 	float: right;
 	display: block;
-	text-indent: -999999px;
+	text-indent: -9999px;
 }
 #sidebar ul li a{
 	min-height: 17px;
@@ -580,7 +580,7 @@ p{
 }
 .issue-discussion li .topbar ul li a{
 	display: block;
-	text-indent: -999999px;
+	text-indent: -9999px;
 }
 .issue-discussion li .topbar .delete-comment a{
 	background: url('../images/layout/icon-delete.png') no-repeat 0 1px;
@@ -883,4 +883,17 @@ p{
 	#content .pad .inside-tabs{
 		padding: 5px 0;
 	}
+	
+	
 }
+
+/*#header .nav-right { 
+	background: #2A2F3E;
+	width: 150px;
+	padding: 0;
+	margin: 19px 15px 0 0;
+}
+#header .nav-right li { 
+	float: none;
+	margin: 10px 10px;
+}*/
